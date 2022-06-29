@@ -1,13 +1,54 @@
 :root {
     --background-dark: #1F2937;
     --text-light: #F9FAF8;
+    --background-light: #E5E7Eb;
 }
 
-header {
+/* header {
     background-color: var(--background-dark);
     text-align: center;
+} */
+
+.header {
+    background-color: var(--background-dark);
+    text-align: center;;
 }
 
-h1, h2 {
+/* h1, h2 {
     color: var(--text-light);
+} */
+
+.header_text {
+    color: var(--text-light);
+}
+
+/* main {
+    padding: 1em;
+    background-color: var(--background-light);
+} */
+
+.content {
+    padding: 1em;
+    background-color: var(--background-light);
+}
+
+body {
+    /* background-image: url("./record.png"); */
+    /* By default backround-image repeats horizonatal 
+    and vertical. You can use background-repeat to only
+    repeat horizontal, or vertical, or no repeat. Or do 
+    accept other values as space or round. */
+    /* background-repeat: repeat; */
+    margin: 0;
+}
+
+/* In the readme for the stretch it says to us classes 
+instead of elements except for adding the margin to the 
+`body` not sure if that meant to still make a class and 
+use it for the background image only? So since I understand
+utilizing classes, I thought I would split the difference
+and show that I know how to use an ID as well!*/
+
+#body {
+    background-image: url("./record.png");
 }
