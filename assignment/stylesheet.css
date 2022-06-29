@@ -1,0 +1,13 @@
+:root {
+    --background-dark: #1F2937;
+    --text-light: #F9FAF8;
+}
+
+header {
+    background-color: var(--background-dark);
+    text-align: center;
+}
+
+h1, h2 {
+    color: var(--text-light);
+}
