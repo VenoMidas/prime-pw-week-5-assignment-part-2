@@ -52,3 +52,27 @@ and show that I know how to use an ID as well!*/
 #body {
     background-image: url("./record.png");
 }
+
+
+/* I've done some flexbox work in the past, now i'm learning a bit of grid 
+thought I would mess around here. The thought being if you have a record collection
+to display on the page could pull the images and display in a grid format. */
+
+.grid-container {
+    display: grid;
+    /* I assume I could create a variable for the number of rows
+    and columns so based on like numberOfColumns = collection.length
+    I could change the grid layout "repeat(var--(numberOfColumns), 1fr) */
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 25px;
+}
+
+.grid-item {
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: #47a2c9;
+    height: 100px;
+    text-align: center;
+    padding-top: 75px;
+}
